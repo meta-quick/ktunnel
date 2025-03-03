@@ -67,7 +67,7 @@ var (
 
 // Main flags (always supported)
 var (
-	app = kingpin.New("ghostunnel", "A simple SSL/TLS proxy with mutual authentication for securing non-TLS services.")
+	app = kingpin.New("ktunnel", "data connector requiring both the client and the server to authenticate each other ")
 
 	// Server flags
 	serverCommand             = app.Command("server", "Server mode (TLS listener -> plain TCP/UNIX target).")
